@@ -1,4 +1,4 @@
-const { sculptureList } = require('./data.js');
+const sculptureList = require('./data.js');
 
 const sculptureListLengths = {};
 
@@ -9,4 +9,5 @@ for (let i = 0; i < sculptureList.length; i++) {
         sculptureListLengths[i][key] = item[key].length;
     }
 }
+
 console.log(sculptureListLengths);
